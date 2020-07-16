@@ -12,12 +12,6 @@
 .margin_top_100 {
   margin-top: 100px;
 }
-.red-box {
-  margin-top: 30px;
-  height: 100px;;
-  background-color: red;
-  border: 1px solid black;
-}
 .green-box {
   padding: 5px;
   height: 100%;
@@ -121,6 +115,23 @@
   text-transform: capitalize;
   font-size: 25px;
 }
+
+/* MAIN */
+
+/* SEZIONE 1 */
+
+.box-portfolio {
+  margin-top: 30px;
+  border-radius: 50%;
+}
+.box-portfolio:hover{
+  background-color: rgba(61, 188, 156, 0.7);
+}
+.box-portfolio img {
+  width: 100%;
+}
+
+
 @media screen and (min-width: 992px) {
   .start-btn {
     font-size: 25px;
