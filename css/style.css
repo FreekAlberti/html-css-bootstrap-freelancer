@@ -69,6 +69,11 @@
   z-index: 1;
   color: #fff;
 }
+.menu ul li {
+  display: inline-block;
+  text-decoration: none;
+  
+}
 
 /* HERO */
 .hero {
@@ -85,7 +90,7 @@
   max-width: 900px;
 }
 
-@media (min-width: @screen-lg-min) {
+@media (min-width: @screen-md-min) {
   .start-btn {
     font-size: 25px;
   }
