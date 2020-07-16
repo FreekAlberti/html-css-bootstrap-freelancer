@@ -52,7 +52,7 @@
 .start-btn {
   text-transform: uppercase;
   color: #fff;
-  font-size: 25px;
+  font-size: 15px;
   font-weight: bold;
 }
 .start-btn:hover{
@@ -69,6 +69,7 @@
   z-index: 1;
   color: #fff;
 }
+
 /* HERO */
 .hero {
   background-color: orange;
@@ -82,4 +83,11 @@
   margin: auto;
   padding: 0 15px;
   max-width: 900px;
+}
+
+@media (min-width: @screen-lg-min) {
+  .start-btn {
+    font-size: 25px;
+  }
+
 }
