@@ -108,7 +108,7 @@
   display: inline-block;
   max-width: 90px;
   width: 20%;
-  border: 2px solid white;
+  border: 2px solid;
   border-radius: 5px;
 }
 .jumbo-contenuto p {
@@ -130,10 +130,21 @@
 .box-portfolio img {
   width: 100%;
 }
+.testo-main {
+  color: #2D3E50;
+}
+.testo-main h2 {
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: bold;
+}
 
 
 @media screen and (min-width: 992px) {
   .start-btn {
     font-size: 25px;
+  }
+  .testo-main h2 {
+    font-size: 50px;
   }
 }
