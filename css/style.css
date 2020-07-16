@@ -86,11 +86,6 @@
 }
 
 /* HERO */
-.hero {
-  background-color: orange;
-  width: 50px;
-  height: 50px;
-}
 .jumbo {
   padding: 70px 0;
 }
@@ -98,8 +93,34 @@
   margin: auto;
   padding: 0 15px;
   max-width: 900px;
+  color: #fff;
 }
-
+.jumbo-contenuto img {
+  height: 300px;
+}
+.titolo {
+  font-size: 65px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.stella {
+  font-size: 38px;
+  margin: 0 20px;
+}
+.ghirigori{
+  margin: 20px 0;
+}
+.ghirigori hr {
+  display: inline-block;
+  max-width: 90px;
+  width: 20%;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+.jumbo-contenuto p {
+  text-transform: capitalize;
+  font-size: 25px;
+}
 @media screen and (min-width: 992px) {
   .start-btn {
     font-size: 25px;
