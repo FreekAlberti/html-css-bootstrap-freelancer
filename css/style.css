@@ -9,8 +9,8 @@
   max-width: 800px;
   margin: auto;
 }
-.margin_top_70 {
-  margin-top: 70px;
+.margin_top_100 {
+  margin-top: 100px;
 }
 .red-box {
   margin-top: 30px;
@@ -60,19 +60,29 @@
   color: #fff;
 }
 .header_top {
-  height: 70px;
-  line-height: 70px;
+  height: 100px;
+  line-height: 100px;
   position: fixed;
   width: 100%;
   top: 0;
   left: 0;
   z-index: 1;
-  color: #fff;
 }
 .menu ul li {
   display: inline-block;
   text-decoration: none;
-  
+  list-style: none;
+  margin: 0 10px;
+}
+.elemento-menu {
+ color: #fff;
+ text-transform: uppercase;
+ font-size: 17px;
+ font-weight: bold;
+}
+.elemento-menu:hover {
+  color: #3DBC9C;
+  text-decoration: none;
 }
 
 /* HERO */
@@ -90,9 +100,8 @@
   max-width: 900px;
 }
 
-@media (min-width: @screen-md-min) {
+@media screen and (min-width: 992px) {
   .start-btn {
     font-size: 25px;
   }
-
 }
