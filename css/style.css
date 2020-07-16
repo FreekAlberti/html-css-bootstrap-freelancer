@@ -122,9 +122,15 @@
 
 .box-portfolio {
   margin-top: 30px;
-  border-radius: 50%;
+  border-radius: 5px;
+  height: 100%;
 }
-.box-portfolio:hover{
+.casa {
+  background-image: url(../img/cabin.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box-portfolio:hover {
   background-color: rgba(61, 188, 156, 0.7);
 }
 .box-portfolio img {
