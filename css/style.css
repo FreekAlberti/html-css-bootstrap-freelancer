@@ -13,10 +13,9 @@
   margin-top: 100px;
 }
 .green-box {
-  padding: 5px;
-  height: 100%;
-  background-color: green;
-  border: 1px solid black;
+  color: #fff;
+  font-size: 20px;
+  padding: 25px;
 }
 .blue-box {
   padding: 5px;
@@ -123,12 +122,14 @@
 .box-portfolio {
   margin-top: 30px;
   border-radius: 5px;
-  height: 100%;
+  width: 100%;
 }
 .casa {
   background-image: url(../img/cabin.png);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 .box-portfolio:hover {
   background-color: rgba(61, 188, 156, 0.7);
@@ -136,21 +137,25 @@
 .box-portfolio img {
   width: 100%;
 }
-.testo-main {
+.testo-main-1 {
   color: #2D3E50;
 }
-.testo-main h2 {
+.testo-main-1 h2, .testo-main-2 h2 {
   text-transform: uppercase;
   font-size: 35px;
   font-weight: bold;
 }
+.testo-main-2 {
+  color: #fff;
+}
+
 
 
 @media screen and (min-width: 992px) {
   .start-btn {
     font-size: 25px;
   }
-  .testo-main h2 {
+  .testo-main-1 h2, .testo-main-2 h2 {
     font-size: 50px;
   }
 }
