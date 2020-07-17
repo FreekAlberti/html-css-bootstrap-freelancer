@@ -139,6 +139,7 @@
 .dec_star.dec_star_dark::before, .dec_star.dec_star_dark::after {
   background-color: #2C3E50;
 }
+
 /* MAIN */
 
 /* SEZIONE 1 */
@@ -202,6 +203,23 @@
 
 /* SEZIONE 3 */
 
+.no-border {
+  border: none;
+  box-shadow: none;
+}
+.colore-bottone {
+  background-color: #3DBC9C;
+  color: #fff;
+  padding: 12px 25px;
+  font-size: 20px;
+}
+.colore-bottone:hover {
+  color: #fff;
+  background-color: #319B81;
+}
+
+/* FOOTER */
+
 .col_footer {
   color: #fff;
   text-align: center;
@@ -245,6 +263,9 @@
 .copyright {
   color: #fff;
 }
+
+/* MEDIA */
+
 @media screen and (min-width: 992px) {
   .start-btn {
     font-size: 25px;
@@ -255,8 +276,4 @@
   .titolo {
     font-size: 65px;
   }
-}
-
-.no-border {
-  border: none;
 }
