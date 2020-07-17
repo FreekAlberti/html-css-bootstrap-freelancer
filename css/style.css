@@ -52,7 +52,22 @@
   text-decoration: none;
   color: #fff;
 }
+.btn-green {
+  background-color: #3DBC9C;
+  color: #fff;
+  font-weight: bold;font-size: 13px;
+}
+.btn-green span {
+  line-height: 100%;
+  vertical-align: text-top;
+  padding-left: 5px;
+}
+.btn-green:hover {
+  background-color: #3DBC9C;
+  color: #2D3E50;
+}
 .header_top {
+  font-family: 'Montserrat', sans-serif;
   height: 100px;
   line-height: 100px;
   position: fixed;
@@ -121,21 +136,35 @@
 
 .box-portfolio {
   margin-top: 30px;
+  position: relative;
+  overflow: hidden;
   border-radius: 5px;
-  width: 100%;
-}
-.casa {
-  background-image: url(../img/cabin.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-}
-.box-portfolio:hover {
-  background-color: rgba(61, 188, 156, 0.7);
 }
 .box-portfolio img {
   width: 100%;
+}
+.box-portfolio:hover .overlay {
+ display: block;
+}
+.box-portfolio img {
+  width: 100%;
+}
+.overlay {
+  display: none;
+  position: absolute;
+  background-color: rgba(26, 188, 155, 0.8);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.overlay i {
+  position: absolute;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
 }
 .testo-main-1 {
   color: #2D3E50;
@@ -184,12 +213,24 @@
   margin: 0 15px;
 }
 .social {
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  border: 2px solid #fff;
   color: #fff;
+  border-radius: 100%;
+  font-size: 18px;
+}
+.social:hover {
+  background-color: #fff;
+  color: #2D3E50;
 }
 .socials ul {
   padding-inline-start: 0;
 }
-
+.copyright {
+  color: #fff;
+}
 @media screen and (min-width: 992px) {
   .start-btn {
     font-size: 25px;
